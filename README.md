@@ -1,31 +1,39 @@
 # WrapCBDC stablecoin - cNGN
 ## Abstract
-Blockchains, or distributes ledgers, have quickly pained adoption as one of the most promising technologies to emerge in tne last ten years. They bring the potential to maintain public, yet secure, leaders of all sorts of data ranging from supply chains to voting records. Many governments and fortune 500 companies have started dedicated blockchain divisions to leverage the technology, including CBN Naira and others.
+cNGN stands apart as the first regulated stablecoin in Africa. As a fully compliant digital asset, cNGN offers unparalleled trust and transparency, ensuring security for all users, institutions, and businesses.
 
-One of tne most promising uses of this new technology is its ability to act as an alternative payment rail. Similar to SWIFT, but available globally, more secure, and much faster at settling transactions. The Consortium Naira {cNGN) stablecoin emerges as an early leader in creating use-cases for tne CBN Naira at launch.
-
-The cNGN is a compliant stablecoin backed 1:1 to the Naira with regulatory supervision by the CBN, SEC and relevant regulatory bodies, and enables licensed partners and exchanges to seamlessly convert cNGN to Naira and vice versa.
+cNGN, fosters the expansion of fintechs, liquidity providers, and virtual asset entities in Nigeria's digital economy. This initiative is bolstered by regulatory approval under the SEC's Regulatory Incubation (RI) Program, significantly contributing to the growth of Nigeria's digital asset ecosystem.
 
 ## Blockchain
-The Consortium wrapped Naira upgradeable smart contracts(except for Bantu) are currently deployed on the following blockchain protocols;
-Main-Nets
-- Bantu = GDNY3KNWBKYSDLJK43FWHONAGRJT3CV7I3YZIAIVZGF2NG5HKDP5KS7U
-- BNBChain = 0xe6cD0ECD7Bd28904aCdeb3B793a832d68B245631
+cNGN is currently deployed on the following blockchain protocols;
 
-Test-Nets
-- Bantu = GAE7E56N3XIC6JGJI54SD3VN4EDY3OZVFA7CLHXAMMTHLU4LIFYJMFSI
-- Ethereum = 0xfc04797591cb814cE30a57F8dD40A398019AFb5C
-- Polygon mumbai = 0xB63799521b6FaBAbAd2F6fbBceCe3EAc894599bB
-- BNBChain = 0xf9e3cdA88632A797cD42C8CE46560944D0b4713e
-- Tron = THo5cGd3ume8heoz7VWWAbVsXrd7aL1be8
+### Main-Nets
+BANTU  
+cNGN Contract Address = GDNY3KNWBKYSDLJK43FWHONAGRJT3CV7I3YZIAIVZGF2NG5HKDP5KS7U 
 
-## Deployments
-All evm-compliant solidity smart contracts are upgradeable and built with openzeppelin standards. For Tron contract, deployment is done using the tron-box in the `Tron-Contract` folder.
+### Test-Nets
+BANTU  
+cNGN Contract Address = GAE7E56N3XIC6JGJI54SD3VN4EDY3OZVFA7CLHXAMMTHLU4LIFYJMFSI  
 
-## Exchange Listing
+ASSETCHAIN  
+Forwarder Contract Address = 0x515f6c252b0c3c562714b4B357A98dd66c7b3dE8  
+cNGN Contract Address = 0xc125329d053761c9d4Fb167986027a8eeeCCF73f  
 
-## API Documentation
+BNBCHAIN  
+Forwarder Contract Address = 0xdB93a2F12ae803B45Dd2130070040FdebBc6487F  
+cNGN Contract Address = 0x28b0e321de52825Ff56861A4109a24351768186c  
+
+ETHEREUM  
+Forwarder Contract Address =  0x848E1A316BF5181a8C85a0d8AA11E0c7b80528cb  
+cNGN Contract Address = 0xE29eF5C6Bf2E263d9ac1Ef343C0E47f1168C1d84  
+
+POLYGON  
+Forwarder Contract Address =  0xc125329d053761c9d4Fb167986027a8eeeCCF73f  
+cNGN Contract Address = 0x30A413288F7865ab916663D12833Df836c21fA9E  
+
+## Financial Institutions
+
+## OffTakers/Exchange Listing
 
 ## License
-Software license can be found [here](https://github.com/ConvexityTeam/wrapcbdc/blob/main/LICENSE)
-
+Software license can be found [here](https://github.com/asc-africa/stablecoin/blob/main/LICENSE)
